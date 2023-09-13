@@ -1,0 +1,129 @@
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+.link {
+  text-decoration: none;
+}
+
+.generalsection {
+  background-color: #2e2f42;
+}
+.generaltitle {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.07;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.bluebutton {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+
+}
+
+.ourteam {
+  background-color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.first-logo {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+
+.second-logo {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+
+.contacts {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;}
+
+.item-title {
+  color: #2e2f42;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.url {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.title {
+  color: #2e2f42;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.under {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+.address {
+  font-style: normal;
+}
+.url:focus {
+  color: #404bbf;
+}
+.url:hover {
+  color: #404bbf;
+}
+.contacts:focus {
+  color: #404bbf;
+}
+.contacts:hover {
+  color: #404bbf;
+}
+.bluebutton:focus {
+  background-color: #404bbf;
+}
+.bluebutton:hover {
+  background-color: #404bbf;
+}
+.white-color{
+  background-color: #ffffff;
+}
