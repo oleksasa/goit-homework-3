@@ -55,8 +55,10 @@ p {
 }
 
 .container-title {
-  padding: 32px;
+  padding: 32px 0;
   text-align: center;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
 }
 
 .people-box {
@@ -69,25 +71,34 @@ p {
 .shadow-board {
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
     0px 1px 6px 0px #2e2f4214;
+    border-radius: 0px 0px 4px 4px;
 }
 .box-app{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 24px;
   
-}
-.item-calc{
-  width:calc((100% - 24px * 2) / 3);
-  border: 1px solid #E7E9FC;
-
 }
 .item-calc:not(:nth-last-child(-n+3)){
   margin-bottom: 48px;
 }
+  .app-container{
+    padding: 32px 16px;
+   
+  }
+
+.item-calc{
+  width:calc((100% - 24px * 2) / 3);
+  
+
+}
+
+
 .box-header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
  
 }
 .box-address{
@@ -97,11 +108,15 @@ p {
 }
 .box-nav{
   display: flex;
-  gap: 76px;
+  
  
 }
 .navigation{
   border-bottom: 1px solid #E7E9FC
+ 
+}
+.header-logo{
+  margin-right: 76px
 }
 
 .menu-box{
@@ -116,12 +131,13 @@ p {
 .generalsection {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px 472px;
+  padding: 188px 0;
+
 }
 
 .generaltitle {
   color: #ffffff;
-  width: 496px;
+  max-width: 496px;
   text-align: center;
   font-weight: 700;
   line-height: 1.07;
@@ -140,6 +156,13 @@ p {
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
   margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+ 
 }
 
 .ourteam {
@@ -148,6 +171,7 @@ p {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo {
@@ -192,7 +216,7 @@ p {
 
 .item-title {
   color: #2e2f42;
-
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -254,10 +278,12 @@ p {
 
 .bluebutton:focus {
   background-color: #404bbf;
+
 }
 
 .bluebutton:hover {
   background-color: #404bbf;
+
 }
 
 .white-color {
@@ -265,5 +291,11 @@ p {
 }
 
 .none {
-  display: none;
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px 1px);
+  white-space: nowrap;
 }
